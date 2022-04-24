@@ -1,0 +1,164 @@
+/* Write your CSS here */
+/* Write your CSS here */
+
+.main-container {
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #defafe
+  );
+  min-height: 100vh;
+  background-size: cover;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  color: #0f172a;
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 90px;
+}
+
+.image-time-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 1140px;
+}
+
+@media screen and (max-width: 768px) {
+  .image-time-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 250px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.stop-watch-time-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.time-display {
+  color: #00d9f5;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.timer-state {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.timer-setting-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  border-style: none;
+  outline: none;
+}
+
+.start-or-pause-images {
+  height: 20px;
+}
+
+.reset-image {
+  height: 20px;
+}
+
+.start-reset-timer-controller-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.start-or-pause-text {
+  font-size: 18px;
+  margin-left: 8px;
+}
+
+.reset-text {
+  font-size: 18px;
+  margin-left: 8px;
+}
+
+.plus-or-minus-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.minus-button {
+  border: none;
+  background-color: transparent;
+  margin-right: 8px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.plus-button {
+  border: none;
+  background-color: transparent;
+  margin-left: 8px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.time-count {
+  background-color: #00d9f5;
+  width: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-limit-text-display {
+  display: flex;
+}
